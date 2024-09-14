@@ -10,16 +10,39 @@ body{
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-color: #032c46;
+    background-color: #0b4f79;
 }
-.Card{
-    background: #02121c; 
-    color: white;
-    border-radius: 10px;
-    padding: 34px;
-}
-.Form{
+.Form {
+    color:white; 
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    background-color: #04253a;
+    border-radius: 7px;
+    padding: 40px;
+    box-shadow: 10px 10px 40px rgba(0, 183, 255, 0.4);
+    gap: 4px; 
+} 
+.Form h1{
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 3em;
+}   
+.Form p{
+    padding: 0;
+    margin: 0;
+    font-weight: 150;
+    font-size: 1.6em;
+}
+.Form label{
+    padding: 0;
+    margin: 0;
+    font-weight: 0;
+    font-size: 1.3em;
+}
+.Form input{
+    padding: 0;
+    margin: 0;
+    font-weight: 0;
+    font-size: 1.3em;
 }
