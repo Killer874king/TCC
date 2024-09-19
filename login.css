@@ -2,8 +2,6 @@
     margin: 0;
 }
 .main-login{
-    width: 100vw;
-    height: 100vh;
     background:#00005c ;
     display: flex;
     justify-content: center;
@@ -18,7 +16,7 @@
     flex-direction: column;
 }
 .esquerda h1{
-    color: rgb(0, 201, 252);   
+    color: white;   
 }
 .direita{
     width: 50vw;
@@ -39,7 +37,7 @@
 
 }
 .card h1{
-    color:rgb(0, 201, 252);
+    color:white;
     font-weight: 800;
     margin: 0;
 }
@@ -83,3 +81,4 @@
     cursor: pointer;
     
 }
+
