@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="Cadastro.css">
+    <script>
+        function IrParaPagina(){
+            event.preventDefault()
+            window.location.href = "Login.html";
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <li>
+                <a href="../index.html">Home</a>
+            </li>
+            <li>
+                <a href="../Login/Login.html">Login</a>
+            </li>
+        </nav>
+        <form action="/submit" method="POST">
+            <div class="Container">
+                <div class="main-cadastro">
+                    <div class="Card">
+                        <label for="name">Digite seu nome</label>
+                        <input type="name" placeholder="Nome" required>
+                        <label for="date">Digite sua Data de nascimento</label>
+                        <input type="date" placeholder="Data de nascimento" required>
+                        <label for="email">Digite seu e-mail</label>
+                        <input type="email" placeholder="Email" required>
+                        <label for="password">Digite sua senha</label>
+                        <input type="password" placeholder="Senha" required>
+                        <label for="genero">Selecione o seu gênero</label>
+                        <select id="genero" name="genero">
+                            <option value="masculino">Masculino</option>
+                            <option value="feminino">Feminino</option>
+                            <option value="outro">Outro</option>
+                        </select>
+
+                        <button onclick="IrParaPagina(event)">Cadastrar</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+    </header>
+    
+</body>
+</html>
