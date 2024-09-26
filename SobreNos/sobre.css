@@ -1,0 +1,17 @@
+body{
+    background-color: #00005c;
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    padding: 5px;
+}
