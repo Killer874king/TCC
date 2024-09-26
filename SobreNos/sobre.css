@@ -3,6 +3,7 @@
 body{
     background-color: #182434;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a{
@@ -24,8 +25,26 @@ ul{
 
 .Menu{
     background-color: #100c1c;
+
 }
 
 h1{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
     align-items: center;
+    padding: 35px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+li{
+    font-size: 20px;
+}
+
+.parag{
+    margin-top: 50px;
+    margin-left: 20px;
 }
