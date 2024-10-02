@@ -2,6 +2,9 @@
 
 body{
     background-color: rgb(19, 17, 96);
+    background-image: url(../Assets/anime.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -11,22 +14,22 @@ a{
     text-decoration: none;
 }
 
-ul{
+ul,li{
     display: flex;
     justify-content: space-around;
     list-style-type: none;
-    align-items: center;
+    align-items:center;
     padding: 13px;
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
+    align-content: 50;
 }
 
 .Menu{
-    background-color: rgb(0, 0, 0);
-    border-radius: 20px;
-    width: 75%;
+    background-color: rgba(0, 0, 0, .4);
+    width: 100%;
 
 }
 
@@ -36,10 +39,10 @@ h1{
     list-style-type: none;
     align-items: center;
     padding: 35px;
-    margin-top: 0px;
+    margin-top: 2%;
     margin-bottom: 0px;
     margin-left: 0px;
-    margin-right: 0px;
+    margin-right: 5%;
 }
 
 li{
@@ -47,21 +50,21 @@ li{
 }
 
 .parag{
-    margin-top: 50px;
-    margin-left: 20px;
-    background-color: black;
+    background-color: rgba(3, 3, 3, .4);
+    color: fff;
     padding: 15px;
     width: 32%;
     height: 20%;
     border-radius: 20px;
+    margin-left: 30%;
+    margin-top: 2%;
+    
 
 
 }
 
 p{
     text-align: center;
-}
-
 .LogoC{
     text-align: center;
 }
