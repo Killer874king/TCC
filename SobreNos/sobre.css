@@ -1,10 +1,16 @@
 *{margin: 0; padding: 0;}
 
+
+.container{
+    background-color: rgb(0, 0, 0, .4);
+}
+
 body{
-    background-color: rgb(19, 17, 96);
-    background-image: url(../Assets/anime.jpg);
+    /*background-color: rgb(19, 17, 96)*/
+    background-image: url(../Assets/fifi.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+    backdrop-filter: blur(2px);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -28,7 +34,7 @@ ul,li{
 }
 
 .Menu{
-    background-color: rgba(0, 0, 0, .4);
+    /*background-color: rgba(0, 0, 0, .4);*/
     width: 100%;
 
 }
@@ -43,6 +49,7 @@ h1{
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 5%;
+    /* background-color: rgba(0, 0, 0, .4); */
 }
 
 li{
@@ -58,9 +65,6 @@ li{
     border-radius: 20px;
     margin-left: 30%;
     margin-top: 2%;
-    
-
-
 }
 
 p{
