@@ -25,7 +25,7 @@ ul,li{
     justify-content: space-around;
     list-style-type: none;
     align-items:center;
-    padding: 13px;
+    padding: 15px;
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
@@ -36,6 +36,7 @@ ul,li{
 .Menu{
     /*background-color: rgba(0, 0, 0, .4);*/
     width: 100%;
+    margin-bottom: 10px;
 
 }
 
