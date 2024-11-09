@@ -15,7 +15,8 @@
     flex-direction: column;
 }
 .esquerda h1{
-    color: white;   
+    color: white;  
+    font-size: 40px;
 }
 .direita{
     width: 50vw;
@@ -86,8 +87,11 @@
 
 .Menu{
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    background-color: #2d2d29;
+    justify-content: space-between;
+    height: 50px;
+
 }
 
-li{}
 
