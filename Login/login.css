@@ -33,6 +33,7 @@
     padding: 30px 35px; 
     background: #2d2d29;
     box-shadow: 0 10px 40px     rgba(0, 0, 0, 0.281);
+    border-radius: 15px;
 
 }
 .card h1{
@@ -82,4 +83,11 @@
     cursor: pointer;
     
 }
+
+.Menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+li{}
 
