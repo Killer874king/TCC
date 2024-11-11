@@ -1,0 +1,55 @@
+body{
+    background-color: #2d2d29;
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+.Menu{
+    display: flex;
+    align-items: center;
+    background-color: #2d2d29;
+    justify-content: space-around;
+    height: 64px;
+    position: fixed;
+    top: 0;                  
+    left: 0;                 
+    width: 100%;             
+    z-index: 1000;           
+    padding: 9;
+    height: 50px;
+
+}
+
+main {
+    padding-top: 60px; 
+}
+
+footer {
+    background-color: #2d2d29;
+    color: white;
+    text-align: center;
+    padding: 6px;
+    bottom: 0;
+    width: 100%;
+    height: 25px;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer a {
+    color: #ddd;
+    
+}
+
+footer a:hover {
+    color: #92c7a3
+}
+.Carteira,.Sobre,.Login,.Home,.Contato{
+    height: 25px;
+    width: 25px;
+}
