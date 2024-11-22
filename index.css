@@ -28,9 +28,59 @@ a{
 
 }
 
-main {
-    padding-top: 60px; 
-    margin-top: 50px;
+.features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 40px 0;
+    gap: 20px;
+}
+
+.feature {
+    background-color: #215a6d;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+}
+
+.feature h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 1rem;
+    color: #ddd;
+}
+
+
+.cta {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.cta h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.cta .botao {
+    background-color: #67d9d9;
+    color: #2d2d29;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.cta .botao:hover {
+    background-color: #92c7a3;
+    transform: scale(1.05);
 }
 
 footer {

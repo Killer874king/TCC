@@ -6,6 +6,7 @@
     <title>Beginner Funds - Login</title>
     <link rel="stylesheet" href="../reset.css">
     <link rel="stylesheet" href="login.css">
+    <script src="Login.js"></script>
     <style>
         body{
             background-color: #2d2d29;
@@ -38,15 +39,18 @@
                     <h1>Login</h1>
                     <div class="campo-texto">
                         <label for="email">Digite seu e-mail</label>
-                        <input type="email" placeholder="E-mail"><br>
+                        <input type="email" id="email" placeholder="E-mail"><br>
                         <label for="password">Digite sua senha</label>
-                        <input type="password" placeholder="Senha">
+                        <input type="password" id="password" placeholder="Senha">
                     </div>
-                    <button class="botao-login">Login</button>
+                    <button class="botao-login" id="login-button">Login</button>
+                    <div id="error-message" style="display: none; color: red; margin-top: 15px;">
+                        <p>Login inválido. Deseja se cadastrar?</p>
+                        <button id="register-button" style="padding: 10px 20px; background-color: #67d9d9; color: white; border: none; border-radius: 5px; cursor: pointer;">Cadastre-se</button>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
+            
 
     <footer>
         <a href="./Contato/contato.html"><img src="../Assets/Contato.png" alt="Contato" class="Contato"></a>
@@ -54,4 +58,5 @@
     </footer>
 
 </body>
+
 </html>

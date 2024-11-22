@@ -5,49 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
     <link rel="stylesheet" href="Cadastro.css">
-    <script>
-        function IrParaPagina(){
-            event.preventDefault()
-            window.location.href = "Login.html";
-        }
-    </script>
+    <script src="Cadastro.js"></script>
 </head>
 <body>
     <header>
         <nav>
-            <li>
-                <a href="../index.html">Home</a>
-            </li>
-            <li>
-                <a href="../Login/Login.html">Login</a>
-            </li>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../Login/Login.html">Login</a></li>
+            </ul>
         </nav>
-        <form action="/submit" method="POST">
-            <div class="Container">
-                <div class="main-cadastro">
-                    <div class="Card">
-                        <label for="name">Digite seu nome</label>
-                        <input type="name" placeholder="Nome" required>
-                        <label for="date">Digite sua Data de nascimento</label>
-                        <input type="date" placeholder="Data de nascimento" required>
-                        <label for="email">Digite seu e-mail</label>
-                        <input type="email" placeholder="Email" required>
-                        <label for="password">Digite sua senha</label>
-                        <input type="password" placeholder="Senha" required>
-                        <label for="genero">Selecione o seu gênero</label>
-                        <select id="genero" name="genero">
-                            <option value="masculino">Masculino</option>
-                            <option value="feminino">Feminino</option>
-                            <option value="outro">Outro</option>
-                        </select>
+        <div class="form-container">
+            <h2>Cadastro de Usuário</h2>
+            <form id="formCadastro" onsubmit="validarFormulario(event)">
+                <div class="card">
+                    <label for="name">Digite seu nome</label>
+                    <input type="text" id="name" name="name" placeholder="Nome Completo" required>
 
-                        <button onclick="IrParaPagina(event)">Cadastrar</button>
-                    </div>
+                    <label for="date">Data de nascimento</label>
+                    <input type="date" id="date" name="date" required>
+
+                    <label for="email">Digite seu e-mail</label>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+
+                    <label for="password">Digite sua senha</label>
+                    <input type="password" id="password" name="password" placeholder="Senha" required>
+
+                    <label for="genero">Selecione seu gênero</label>
+                    <select id="genero" name="genero" required>
+                        <option value="masculino">Masculino</option>
+                        <option value="feminino">Feminino</option>
+                        <option value="outro">Outro</option>
+                    </select>
+
+                    <button type="submit">Cadastrar</button>
                 </div>
-            </div>
-        </form>
-
+            </form>
+        </div>
     </header>
-    
 </body>
 </html>

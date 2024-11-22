@@ -136,6 +136,30 @@ footer a {
     top: -17px;
 }
 
+#error-message {
+    text-align: center;
+    margin-top: 15px;
+}
+
+#error-message p {
+    font-size: 14px;
+    color: red;
+}
+
+#error-message button {
+    background-color: #215a6d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#error-message button:hover {
+    background-color: #67d9d9;
+}
+
 
 
 
