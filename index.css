@@ -3,10 +3,14 @@ body{
     color: white;
 }
 
+.container{
+    margin: 15px;
+}
 a{
     color: white;
     text-decoration: none;
 }
+
 .Menu{
     display: flex;
     align-items: center;
@@ -19,15 +23,18 @@ a{
     width: 100%;             
     z-index: 1000;           
     padding: 9;
-    height: 50px;
+    height: 65px;
+    border-bottom: solid 1px #215a6d;
 
 }
 
 main {
     padding-top: 60px; 
+    margin-top: 50px;
 }
 
 footer {
+    position: fixed;
     background-color: #2d2d29;
     color: white;
     text-align: center;
@@ -39,6 +46,8 @@ footer {
     text-decoration: none;
     align-items: center;
     justify-content: space-evenly;
+    margin-top: 25px;
+    margin-bottom: 5px;
 }
 
 footer a {
@@ -49,7 +58,15 @@ footer a {
 footer a:hover {
     color: #92c7a3
 }
-.Carteira,.Sobre,.Login,.Home,.Contato{
+.Carteira,.Sobre,.Login,.Contato{
     height: 25px;
     width: 25px;
+}
+
+.Home{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    left: 0px;
+    top: -17px;
 }

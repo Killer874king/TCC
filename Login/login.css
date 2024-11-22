@@ -32,13 +32,13 @@
     align-items: center;
     flex-direction: column;
     padding: 30px 35px; 
-    background: #2d2d29;
+    background: #dfece6;
     box-shadow: 0 10px 40px     rgba(0, 0, 0, 0.281);
     border-radius: 15px;
 
 }
 .card h1{
-    color:white;
+    color:rgb(0, 0, 0);
     font-weight: 800;
     margin: 0;
 }
@@ -56,8 +56,8 @@
     border: none;
     border-radius: 10px;
     padding: 15px;
-    background:  #215a6d;
-    color: rgba(255, 255, 255, 0.808);
+    background:  #2d2d29;
+    color: rgba(0, 0, 0, 0.808);
     font-size: 12pt;
     box-shadow: 0 10px 40px     rgba(0, 0, 0, 0.281);
     outline: none;
@@ -67,7 +67,7 @@
     color: rgba(255, 255, 255, 0.658);
 }
 .campo-texto label{
-    color: rgba(255, 255, 255, 0.808);
+    color: black(255, 255, 255, 0.808);
     font-weight: bold;
     margin-bottom: 10px;
 }
@@ -89,9 +89,53 @@
     display: flex;
     align-items: center;
     background-color: #2d2d29;
-    justify-content: space-between;
-    height: 50px;
-
+    justify-content: space-around;
+    height: 64px;
+    position: fixed;
+    top: 0;                  
+    left: 0;                 
+    width: 100%;             
+    z-index: 1000;           
+    padding: 9;
+    height: 65px;
+    border-bottom: solid 1px #215a6d;
 }
+
+.Carteira,.Sobre,.Login,.Contato{
+    height: 25px;
+    width: 25px;
+}
+
+footer {
+    position: fixed;
+    background-color: #2d2d29;
+    color: white;
+    text-align: center;
+    padding: 6px;
+    bottom: 0;
+    width: 100%;
+    height: 25px;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+footer a {
+    color: #ddd;
+    
+}
+
+.Home{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    left: 0px;
+    top: -17px;
+}
+
+
 
 
