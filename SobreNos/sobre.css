@@ -1,75 +1,71 @@
-*{margin: 0; padding: 0;}
-
+body{
+    background-color: #2d2d29;
+    color: white;
+}
 
 .container{
-    background-color: rgb(0, 0, 0, .4);
+    margin: 15px;
 }
-
-body{
-    /*background-color: rgb(19, 17, 96)*/
-    background-image: url(../Assets/fifi.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    backdrop-filter: blur(2px);
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 a{
     color: white;
     text-decoration: none;
 }
 
-ul,li{
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
-    align-items:center;
-    padding: 15px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    align-content: 50;
-}
-
 .Menu{
-    /*background-color: rgba(0, 0, 0, .4);*/
-    width: 100%;
-    margin-bottom: 10px;
-
-}
-
-h1{
     display: flex;
-    justify-content: space-around;
-    list-style-type: none;
     align-items: center;
-    padding: 35px;
-    margin-top: 2%;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 5%;
-    /* background-color: rgba(0, 0, 0, .4); */
+    background-color: #2d2d29;
+    justify-content: space-around;
+    height: 64px;
+    position: fixed;
+    top: 0;                  
+    left: 0;                 
+    width: 100%;             
+    z-index: 1000;           
+    padding: 9;
+    height: 65px;
+
 }
 
-li{
-    font-size: 20px;
+main {
+    padding-top: 60px; 
+    margin-top: 50px;
 }
 
-.parag{
-    background-color: rgba(3, 3, 3, .4);
-    color: fff;
-    padding: 15px;
-    width: 32%;
-    height: 20%;
-    border-radius: 20px;
-    margin-left: 30%;
-    margin-top: 2%;
-}
-
-p{
+footer {
+    position: fixed;
+    background-color: #2d2d29;
+    color: white;
     text-align: center;
-.LogoC{
-    text-align: center;
+    padding: 6px;
+    bottom: 0;
+    width: 100%;
+    height: 25px;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+footer a {
+    color: #ddd;
+    
+}
+
+footer a:hover {
+    color: #92c7a3
+}
+.Carteira,.Sobre,.Login,.Contato{
+    height: 25px;
+    width: 25px;
+}
+
+.Home{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    left: 0px;
+    top: -17px;
 }
