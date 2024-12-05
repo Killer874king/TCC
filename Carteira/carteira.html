@@ -3,16 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carteira</title>
+    <title>Beginner Funds - Carteira</title>
     <link rel="stylesheet" href="carteira.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> 
+    <script defer src="carteira.js"></script> 
 </head>
 <body>
-    <nav>
-        <ul>
-            <li>
-                <a href="../index.html">Home</a>
-            </li>
-        </ul>
-    </nav>
+    <div class="container">
+        <header>
+            <nav>
+                <ul class="Menu">
+                    <li>
+                        <a href="../index.html"><img src="../Assets/BeginnerFunds_Nograsadasdadph.png" alt="Home" class="Home"></a>
+                    </li>
+                    <li>
+                        <a href="../Carteira/carteira.html"><img src="../Assets/carteira.png" alt="Carteira" class="Carteira"></a>
+                    </li>
+                    <li>
+                        <a href="../Login/Login.html"><img src="../Assets/Login.png" alt="Login" class="Login"></a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="calculadora">
+                <h1>Calculadora de Investimentos</h1>
+                <label for="valorInicial">Valor Inicial:</label>
+                <input type="number" id="valorInicial" placeholder="Digite o valor inicial">
+
+                <p>Taxa Selic Anual: <strong id="taxaSelicDisplay">Carregando...</strong></p>
+
+                <label for="meses">Meses:</label>
+                <input type="number" id="meses" placeholder="Digite o número de meses">
+
+                <button onclick="calcularInvestimento()">Calcular</button>
+
+                <h2>Resultados</h2>
+                <p id="resultado">---</p>
+
+                <canvas id="grafico" width="400" height="200"></canvas>
+            </section>
+        </main>
+
+        <footer>
+            <a href="../Contato/contato.html"><img src="../Assets/Contato.png" alt="Contato" class="Contato"></a>
+            <a href="../SobreNos/sobre.html"><img src="../Assets/questionando.png" alt="Sobre Nós" class="Sobre"></a>
+        </footer>
+    </div>
 </body>
 </html>

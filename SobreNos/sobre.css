@@ -24,14 +24,9 @@ a{
     z-index: 1000;           
     padding: 9;
     height: 65px;
+    border-bottom: solid 1px #215a6d;
 
 }
-
-main {
-    padding-top: 60px; 
-    margin-top: 50px;
-}
-
 footer {
     position: fixed;
     background-color: #2d2d29;
@@ -68,5 +63,4 @@ footer a:hover {
     position: absolute;
     left: 0px;
     top: -17px;
-}
 }
